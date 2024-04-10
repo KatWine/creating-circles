@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: azure;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 1fr;
+  row-gap: 10px;
+}
+
+.containor {
+  border: 3px solid black;
+  height: 50vh;
+  width: 100%;
+}
+
+.click {
+  align-items: center;
+  border: 1px solid black;
+  height: 40%;
+  width: 30%;
+  margin-left: 33%;
+  border-radius: 50px;
+  color: white;
+  background-color: rgba(207, 72, 72, 0.847);
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
